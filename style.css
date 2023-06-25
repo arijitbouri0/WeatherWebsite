@@ -19,7 +19,7 @@ body {
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
-    margin: 1em;
+    margin: 2em;
   }
   
   .search {
@@ -35,7 +35,7 @@ body {
     height: 44px;
     width: 44px;
     outline: none;
-    background: #7c7c7c2b;
+    background: #7c7c7cc8;
     color: white;
     cursor: pointer;
     transition: 0.2s ease-in-out;
@@ -55,7 +55,7 @@ body {
   }
   
   button:hover {
-    background: #7c7c7c6b;
+    background: #ded2e1e7;
   }
   
   h1.temp {
@@ -93,5 +93,13 @@ body {
     width: 150px;
     height: 150px;
     padding-left: 140px;  
+}
+.glass{
+  background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0,0,0.37);
 }
   
